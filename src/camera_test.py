@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_AVFOUNDATION)
 
 print("Relay camera test starting...") 
 print("Press Q to quit") 
